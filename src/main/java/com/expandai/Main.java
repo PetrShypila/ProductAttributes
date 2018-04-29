@@ -5,8 +5,9 @@ import com.expandai.model.Attribute;
 import java.util.Arrays;
 
 public class Main {
+  // Here I just build structure from task provided and running #print at the end
   public static void main(String[] args) {
-    final Attribute<String, String> A = new Attribute<>("");
+    final Attribute<String, String> A = new Attribute<>(".");
 
     final Attribute<String, String> as1 = new Attribute<>("Attributes 1");
     as1.children().add(new Attribute<>("Attribute 1", "Value 1"));
